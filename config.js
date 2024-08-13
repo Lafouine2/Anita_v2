@@ -8,25 +8,25 @@ module.exports = {
     /**
      * bot details and parameters
      */
-    botname: process.env.BotName || "Queen Anya Bot",
-    footer: process.env.Footer || "© Queen Anya Bot",
-    prefa: process.env.Prefix || "-",
-    themeemoji: process.env.ThemeEmoji || "🎐",
+    botname: process.env.BotName || "𝗙𝗼𝘂𝗶𝗻𝗶 | 𝗕𝗼𝘁 ✨💫",
+    footer: process.env.Footer || "© Fouini Bot",
+    prefa: process.env.Prefix || "¥",
+    themeemoji: process.env.ThemeEmoji || "✨",
 
     /**
      * owner details and parameters
      */
-    ownername: process.env.Owner_Name || "Pika~Kun",
-    ownernumber: process.env.Owner_Number || "916900904828",
+    ownername: process.env.Owner_Name || "𝕃𝕠𝕣𝕕 𝗙𝗼𝘂𝗶𝗻𝗶",
+    ownernumber: process.env.Owner_Number || "237651338525",
     instagramId: process.env.Insta || "3.69_pika",
 
     /**
      * other details and parameters
      */
-    author: process.env.Author || "@PikaBotz",
+    author: process.env.Author || "@𝕃𝕠𝕣𝕕_𝗙𝗼𝘂𝗶𝗻𝗶",
     packname: process.env.PackName || "Queen Anya v2 MD",
-    socialLink: process.env.Web || "https://github.com/PikaBotz",
-    groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
+    socialLink: process.env.Web || "https://github.com/Lafouine2",
+    groupLink: process.env.GcLink || "https://whatsapp.com/channel/BR0V0YskhBZ3q5umkoyhB9",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: 5, // default cooldown time per command in seconds
     mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
